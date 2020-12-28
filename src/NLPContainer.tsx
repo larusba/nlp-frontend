@@ -1,12 +1,12 @@
-import React, {Fragment} from 'react';
-import {Formik, Field, Form, FormikValues} from "formik";
+import React from 'react';
+import {FormikValues} from "formik";
 import {Col, Container, Row} from "react-bootstrap";
 import TextAreaForm from "./TextAreaForm";
 import {nlpService} from "./NlpService";
 import JsonView from "./JsonView";
 import FileSubmitForm from "./FileSubmitForm";
 
-class AppContainer extends React.Component<any, any> {
+class NLPContainer extends React.Component<any, any> {
     constructor(props) {
         super(props);
         this.state = {response: {info: "Results will be shown here!"} }
@@ -55,4 +55,4 @@ class AppContainer extends React.Component<any, any> {
     }
 }
 
-export default AppContainer;
+export default NLPContainer;

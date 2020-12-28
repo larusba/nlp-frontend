@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d474146-b3be-42b1-bb43-0c5462747db4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AppContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileSubmitForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JsonView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NlpService.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TextAreaForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdvancedSearchContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextSearchForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/NLPContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NlpService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/NlpService.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608811071937</updated>
-      <workItem from="1608811073353" duration="10004000" />
+      <workItem from="1608811073353" duration="10560000" />
+      <workItem from="1609168698218" duration="2639000" />
     </task>
     <servers />
   </component>
@@ -97,5 +97,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
