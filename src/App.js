@@ -11,16 +11,10 @@ import AdvancedSearchContainer from "./AdvancedSearchContainer";
 function App() {
   return (
       <div>
-          <Container>
-              <Row className='mt-5 mb-4'>
-                  <Col lg={6} >
-                      <h1>NLP</h1>
-                  </Col>
-              </Row>
               <BrowserRouter>
                   <div>
                       <nav>
-                          <ul>
+                          <ul className='mb-3 pl-3'>
                               <li>
                                   <Link to="/">NLP Document</Link>
                               </li>
@@ -29,13 +23,19 @@ function App() {
                               </li>
                           </ul>
                       </nav>
+                      <Container>
+                          <Row className='mt-5 mb-4'>
+                              <Col lg={6} >
+                                  <h1>NLP</h1>
+                              </Col>
+                          </Row>
+                      </Container>
                       <Switch>
                           <Route exact path="/" component={NLPContainer} />
                           <Route path="/advanced-search" component={AdvancedSearchContainer}/>
                       </Switch>
                   </div>
               </BrowserRouter>
-          </Container>
       </div>
   );
 }
