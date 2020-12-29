@@ -12,7 +12,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #57aedd;
+  background-color: #45a7dc;
 }
 
 li {
@@ -35,7 +35,7 @@ li a:hover {
 
 button {
   color: white;
-  background-color: #57aedd;
+  background-color: #45a7dc;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -53,7 +53,4 @@ input, select, textarea, button {
   border-radius: 12px !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
 

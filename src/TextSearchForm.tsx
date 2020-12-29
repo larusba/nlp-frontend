@@ -1,12 +1,8 @@
 import React, {Fragment} from 'react';
-import {Formik, Field, Form, FormikValues} from "formik";
+import {Formik, Field, Form} from "formik";
 import {Row} from "react-bootstrap";
 
 class TextAreaForm extends React.Component<any, any> {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Fragment>

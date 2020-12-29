@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NLPContainer from "./NLPContainer";
-import {Col, Container, Row} from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import React from "react";
 import {Switch, BrowserRouter, Route, Link} from "react-router-dom";
 import AdvancedSearchContainer from "./AdvancedSearchContainer";

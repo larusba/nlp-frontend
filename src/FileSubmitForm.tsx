@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {Formik, Field, Form, FormikValues} from "formik";
+import {Formik, Field, Form} from "formik";
 import {Row} from "react-bootstrap";
 import FileBase64 from 'react-file-base64';
 
