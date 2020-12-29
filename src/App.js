@@ -25,9 +25,7 @@ function App() {
                       </nav>
                       <Container>
                           <Row className='mt-5 mb-4'>
-                              <Col lg={6} >
-                                  <h1>NLP</h1>
-                              </Col>
+                              <h1>NLP</h1>
                           </Row>
                       </Container>
                       <Switch>

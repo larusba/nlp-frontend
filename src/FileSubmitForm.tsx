@@ -29,7 +29,7 @@ class FileSubmitForm extends React.Component<any, any> {
                 >
                     <Form>
                         <Row className='mt-2'>
-                            <div><label htmlFor="file">File upload</label></div>
+                            <div><label htmlFor="file"><h4>File upload</h4></label></div>
                         </Row>
                         <Row className='mt-1 mb-4'>
                             <FileBase64

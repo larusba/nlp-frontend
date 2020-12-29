@@ -3,7 +3,6 @@ import {FormikValues} from "formik";
 import {Col, Container, Row} from "react-bootstrap";
 import {nlpService} from "./NlpService";
 import JsonView from "./JsonView";
-import TextAreaForm from "./TextAreaForm";
 import TextSearchForm from "./TextSearchForm";
 import FileSubmitForm from "./FileSubmitForm";
 
@@ -19,7 +18,7 @@ class AdvancedSearchContainer extends React.Component<any, any> {
         nlpService.findDocsByText(formData['text'],0,20).then(
             (result: string) => {
                 console.log('result: ', JSON.parse(result));
-                this.setState({response: JSON.parse(result)})
+                this.setState({response: JSON.parse(result)['content']})
             },
             (error) => {
                 console.log("error", error);

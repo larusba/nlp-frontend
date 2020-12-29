@@ -16,7 +16,7 @@ class TextAreaForm extends React.Component<any, any> {
                 >
                     <Form>
                         <Row className='mt-2'>
-                            <div><label htmlFor="text">Text upload</label></div>
+                            <div><label htmlFor="text"><h4>Text upload</h4></label></div>
                         </Row>
                         <Row className='mt-2'>
                             <Field name="text" as="textarea" type="textarea" className='mr-2' rows="4" cols="60" />
