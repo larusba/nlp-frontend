@@ -44,7 +44,7 @@ class NLPContainer extends React.Component<any, any> {
                     <Col>
                         <TextAreaForm onSubmit={this.sendRequest}/>
                         <hr/>
-                        <FileSubmitForm onSubmit={this.sendRequest}/>
+                        <FileSubmitForm onSubmit={this.sendRequest} buttonText={'Submit'}/>
                     </Col>
                     <Col>
                         <JsonView jsonText={this.state.response}/>

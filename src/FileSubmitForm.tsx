@@ -25,7 +25,7 @@ class FileSubmitForm extends React.Component<any, any> {
             <Fragment>
                 <Formik
                     initialValues={{ searchType: "SENTENZA"  }}
-                    onSubmit={(values) => this.props.onSubmit(values, this.state.file['base64'])}
+                    onSubmit={(values) => this.props.onSubmit(values, this.state.file['base64'], this.state.file['name'])}
                 >
                     <Form>
                         <Row className='mt-2'>
@@ -48,7 +48,7 @@ class FileSubmitForm extends React.Component<any, any> {
                             </Field>
                         </Row>
                         <Row className='mt-3 mb-2'>
-                            <button type="submit" disabled={!this.state.fileReady}>Submit</button>
+                            <button type="submit" disabled={!this.state.fileReady}>{this.props.buttonText}</button>
                         </Row>
                     </Form>
                 </Formik>
