@@ -16,7 +16,6 @@ class FileSubmitForm extends React.Component<any, any> {
 
     disableSubmit(e) {
         e.preventDefault();
-        console.log("m hai toccato");
         this.setState({file: this.state.file, fileReady: false})
     }
 
@@ -45,6 +44,7 @@ class FileSubmitForm extends React.Component<any, any> {
                             <Field name="searchType" as="select">
                                 <option value="SENTENZA">SENTENZA</option>
                                 <option value="VISURA">VISURA</option>
+                                <option value="SENTENZA_CONDANNA">SENTENZA_CONDANNA</option>
                             </Field>
                         </Row>
                         <Row className='mt-3 mb-2'>
