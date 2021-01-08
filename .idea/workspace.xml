@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d474146-b3be-42b1-bb43-0c5462747db4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/container/V2_NLPContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvancedSearchContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AdvancedSearchContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NLPContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/NLPContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileSubmitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/input/FileSubmitForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JsonView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/JsonView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NLPContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/NLPContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NlpService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/NlpService.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextAreaForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/input/TextAreaForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/search/TextSearchForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/container" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -49,10 +55,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/container" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/view" />
+      <recent name="$PROJECT_DIR$/src/form/search" />
+      <recent name="$PROJECT_DIR$/src/form/input" />
+      <recent name="$PROJECT_DIR$/src/form" />
+      <recent name="$PROJECT_DIR$/src/service" />
     </key>
   </component>
   <component name="RunManager">
@@ -78,7 +89,15 @@
       <workItem from="1608811073353" duration="10560000" />
       <workItem from="1609168698218" duration="3403000" />
       <workItem from="1609193987352" duration="187000" />
-      <workItem from="1609240637635" duration="4846000" />
+      <workItem from="1609240637635" duration="5516000" />
+      <workItem from="1609264199230" duration="189000" />
+      <workItem from="1609282290093" duration="139000" />
+      <workItem from="1609317939102" duration="127000" />
+      <workItem from="1609414810858" duration="108000" />
+      <workItem from="1609849387064" duration="112000" />
+      <workItem from="1610010384325" duration="491000" />
+      <workItem from="1610017916050" duration="146000" />
+      <workItem from="1610100279410" duration="2018000" />
     </task>
     <servers />
   </component>
