@@ -16,7 +16,7 @@ class V2_NLPContainer extends React.Component<any, any> {
         let promise: Promise<string>;
 
         if (fileBase64 && formData['searchType']) {
-            promise = nlpService.V2_getNerByFile(formData['searchType'], fileBase64.substr(fileBase64.indexOf(",") + 1));
+            promise = nlpService.V2_getNerByFile(fileBase64.substr(fileBase64.indexOf(",") + 1));
         } else {
             this.setState({response: JSON.parse("One or more Form values are not populated")})
             promise = new Promise<string>(resolve => "One or more Form values are not populated");

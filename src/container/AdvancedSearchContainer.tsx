@@ -27,7 +27,7 @@ class AdvancedSearchContainer extends React.Component<any, any> {
     }
 
     sendSaveRequest(formData: FormikValues, fileBase64: string, fileName: string) {
-        nlpService.saveDocInElastic(formData['searchType'],fileName, fileBase64.substr(fileBase64.indexOf(",") + 1)).then(
+        nlpService.saveDocInElastic(fileName, fileBase64.substr(fileBase64.indexOf(",") + 1)).then(
             (result: string) => {
                 console.log('result: ', JSON.parse(result));
                 this.setState({response: JSON.parse(result)})

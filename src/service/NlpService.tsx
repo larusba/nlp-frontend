@@ -1,10 +1,10 @@
 
 interface NlpService {
     getNerByText: (text: string) => Promise<any>;
-    getNerByFile: (searchType: string, file: any) => Promise<any>;
-    V2_getNerByFile: (searchType: string, file: any) => Promise<any>;
+    getNerByFile: (file: any) => Promise<any>;
+    V2_getNerByFile: (file: any) => Promise<any>;
     findDocsByText: (text: string, pageNumber: number, results: number) => Promise<any>;
-    saveDocInElastic: (searchType: string, fileName: string, fileContent: any) => Promise<any>
+    saveDocInElastic: (fileName: string, fileContent: any) => Promise<any>
 }
 
 const getNerByText = (text: string): Promise<any> => {
@@ -12,24 +12,21 @@ const getNerByText = (text: string): Promise<any> => {
     return fetch(url, {headers : {'Content-Type' : 'application/json'}, method : "POST", body: JSON.stringify(text)}).then(res => res.text())
 }
 
-const getNerByFile = (searchType: string, file: any): Promise<any> => {
-    const url = "http://localhost:8080/ner-by-document?" +
-        "docType=" + searchType;
+const getNerByFile = (file: any): Promise<any> => {
+    const url = "http://localhost:8080/ner-by-document";
     return fetch(url, {headers : {'Content-Type' : 'application/json'}, method : "POST", body: JSON.stringify(file)}).then(res => res.text())
 }
 
-const V2_getNerByFile = (searchType: string, file: any): Promise<any> => {
-    const url = "http://localhost:8080/v2/ner-by-document?" +
-        "docType=" + searchType;
+const V2_getNerByFile = (file: any): Promise<any> => {
+    const url = "http://localhost:8080/v2/ner-by-document";
     return fetch(url, {headers : {'Content-Type' : 'application/json'}, method : "POST", body: JSON.stringify(file)}).then(res => res.text())
 }
 
 /*** ELASTIC APIs ***/
 
-const saveDocInElastic = (searchType: string, fileName: string, fileContent: any): Promise<any> => {
+const saveDocInElastic = (fileName: string, fileContent: any): Promise<any> => {
     const url = "http://localhost:8080/import-elastic-document?" +
-        "docType=" + searchType +
-        "&docName=" + fileName;
+        "docName=" + fileName;
     return fetch(url, {headers : {'Content-Type' : 'application/json'}, method : "POST", body: JSON.stringify(fileContent)}).then(res => res.text())
 }
 

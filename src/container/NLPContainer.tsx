@@ -17,7 +17,7 @@ class NLPContainer extends React.Component<any, any> {
         let promise: Promise<string>;
 
         if (fileBase64 && formData['searchType']) {
-            promise = nlpService.getNerByFile(formData['searchType'], fileBase64.substr(fileBase64.indexOf(",") + 1));
+            promise = nlpService.getNerByFile(fileBase64.substr(fileBase64.indexOf(",") + 1));
         } else if (formData['text']) {
             promise = nlpService.getNerByText(formData['text']);
         } else {

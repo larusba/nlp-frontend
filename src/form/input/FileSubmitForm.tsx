@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {Formik, Field, Form} from "formik";
+import {Formik, Form} from "formik";
 import {Row} from "react-bootstrap";
 import FileBase64 from 'react-file-base64';
 
@@ -37,16 +37,13 @@ class FileSubmitForm extends React.Component<any, any> {
                                 onDone={ this.getFiles.bind(this) } />
                         </Row>
 
-                        <Row className='mt-2'>
-                            <div><label htmlFor="searchType">Select the right file Category</label></div>
-                        </Row>
-                        <Row className='mt-1'>
+                        {/*<Row className='mt-1'>
                             <Field name="searchType" as="select">
                                 <option value="SENTENZA">SENTENZA</option>
                                 <option value="VISURA">VISURA</option>
                                 <option value="SENTENZA_CONDANNA">SENTENZA_CONDANNA</option>
                             </Field>
-                        </Row>
+                        </Row>*/}
                         <Row className='mt-3 mb-2'>
                             <button type="submit" disabled={!this.state.fileReady}>{this.props.buttonText}</button>
                         </Row>
