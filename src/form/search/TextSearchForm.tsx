@@ -7,7 +7,7 @@ class TextAreaForm extends React.Component<any, any> {
         return (
             <Fragment>
                 <Formik
-                    initialValues={{ text: "Search something" }}
+                    initialValues={{ text: "" }}
                     onSubmit={(values) => this.props.onSubmit(values)}
                 >
                     <Form>
@@ -15,7 +15,7 @@ class TextAreaForm extends React.Component<any, any> {
                             <div><label htmlFor="text"><h4>Advanced Search</h4></label></div>
                         </Row>
                         <Row className='mt-2 mb-2'>
-                            <Field name="text" type="text" className='mr-2' cols="60" />
+                            <Field name="text" placeholder="Search an Org" type="text" className='mr-2' cols="60" />
                         </Row>
                         <Row className='mt-2 mb-2'>
                             <button type="submit">Submit</button>
