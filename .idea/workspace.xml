@@ -4,10 +4,11 @@
     <list default="true" id="6d474146-b3be-42b1-bb43-0c5462747db4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/AdvancedSearchContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/AdvancedSearchContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/NLPContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/NLPContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/V2_NLPContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/V2_NLPContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/V2_NLPContainer.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/input/FileSubmitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/input/FileSubmitForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/input/TextAreaForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/input/TextAreaForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/NlpService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/NlpService.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,8 @@
       <workItem from="1610010384325" duration="491000" />
       <workItem from="1610017916050" duration="146000" />
       <workItem from="1610100279410" duration="3864000" />
-      <workItem from="1610352102943" duration="883000" />
+      <workItem from="1610352102943" duration="1211000" />
+      <workItem from="1610440068678" duration="848000" />
     </task>
     <servers />
   </component>

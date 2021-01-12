@@ -16,7 +16,7 @@ class NLPContainer extends React.Component<any, any> {
     sendRequest(formData: FormikValues, fileBase64?: string) {
         let promise: Promise<string>;
 
-        if (fileBase64 && formData['searchType']) {
+        if (fileBase64) {
             promise = nlpService.getNerByFile(fileBase64.substr(fileBase64.indexOf(",") + 1));
         } else if (formData['text']) {
             promise = nlpService.getNerByText(formData['text']);

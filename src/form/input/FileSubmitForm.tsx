@@ -23,7 +23,7 @@ class FileSubmitForm extends React.Component<any, any> {
         return (
             <Fragment>
                 <Formik
-                    initialValues={{ searchType: "SENTENZA"  }}
+                    initialValues={{ }}
                     onSubmit={(values) => this.props.onSubmit(values, this.state.file['base64'], this.state.file['name'])}
                 >
                     <Form>
@@ -36,14 +36,6 @@ class FileSubmitForm extends React.Component<any, any> {
                                 multiple={ true }
                                 onDone={ this.getFiles.bind(this) } />
                         </Row>
-
-                        {/*<Row className='mt-1'>
-                            <Field name="searchType" as="select">
-                                <option value="SENTENZA">SENTENZA</option>
-                                <option value="VISURA">VISURA</option>
-                                <option value="SENTENZA_CONDANNA">SENTENZA_CONDANNA</option>
-                            </Field>
-                        </Row>*/}
                         <Row className='mt-3 mb-2'>
                             <button type="submit" disabled={!this.state.fileReady}>{this.props.buttonText}</button>
                         </Row>

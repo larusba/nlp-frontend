@@ -18,12 +18,6 @@ class TextAreaForm extends React.Component<any, any> {
                         <Row className='mt-2'>
                             <Field name="text" as="textarea" type="textarea" className='mr-2' rows="4" cols="60" />
                         </Row>
-                        {/*<Row className='mt-2'>
-                            <Field name="searchType" as="select">
-                                <option value="SENTENZA">SENTENZA</option>
-                                <option value="VISURA">VISURA</option>
-                            </Field>
-                        </Row>*/}
                         <Row className='mt-2 mb-2'>
                             <button type="submit">Submit</button>
                         </Row>

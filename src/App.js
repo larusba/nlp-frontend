@@ -6,7 +6,6 @@ import { Container, Row} from "react-bootstrap";
 import React from "react";
 import {Switch, BrowserRouter, Route, Link} from "react-router-dom";
 import AdvancedSearchContainer from "./container/AdvancedSearchContainer";
-import V2_NLPContainer from "./container/V2_NLPContainer";
 
 function App() {
   return (
@@ -17,9 +16,6 @@ function App() {
                           <ul className='mb-3 pl-3'>
                               <li>
                                   <Link to="/">NLP Document</Link>
-                              </li>
-                              <li>
-                                  <Link to="/v2">V2 NLP Document</Link>
                               </li>
                               <li>
                                   <Link to="/advanced-search">Advanced Search</Link>
@@ -33,7 +29,6 @@ function App() {
                       </Container>
                       <Switch>
                           <Route exact path="/" component={NLPContainer} />
-                          <Route exact path="/v2" component={V2_NLPContainer} />
                           <Route path="/advanced-search" component={AdvancedSearchContainer}/>
                       </Switch>
                   </div>
