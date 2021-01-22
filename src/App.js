@@ -5,7 +5,7 @@ import NLPContainer from "./container/NLPContainer";
 import { Container, Row} from "react-bootstrap";
 import React from "react";
 import {Switch, BrowserRouter, Route, Link} from "react-router-dom";
-import AdvancedSearchContainer from "./container/AdvancedSearchContainer";
+import IdCardOcrContainer from "./container/IdCardOcrContainer";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
                                   <Link to="/">NLP Document</Link>
                               </li>
                               <li>
-                                  <Link to="/advanced-search">Advanced Search</Link>
+                                  <Link to="/id-card-ocr">Id Card OCR</Link>
                               </li>
                           </ul>
                       </nav>
@@ -29,7 +29,7 @@ function App() {
                       </Container>
                       <Switch>
                           <Route exact path="/" component={NLPContainer} />
-                          <Route path="/advanced-search" component={AdvancedSearchContainer}/>
+                          <Route path="/id-card-ocr" component={IdCardOcrContainer}/>
                       </Switch>
                   </div>
               </BrowserRouter>

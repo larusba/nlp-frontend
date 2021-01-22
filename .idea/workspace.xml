@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d474146-b3be-42b1-bb43-0c5462747db4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/form/input/IdCardSubmitForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/NLPContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/NLPContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/V2_NLPContainer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/input/FileSubmitForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/input/FileSubmitForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/input/TextAreaForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/input/TextAreaForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/AdvancedSearchContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/IdCardOcrContainer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/NlpService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/NlpService.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/container" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/form/input" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -52,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/form/input" />
       <recent name="$PROJECT_DIR$/src/container" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -96,7 +97,10 @@
       <workItem from="1610017916050" duration="146000" />
       <workItem from="1610100279410" duration="3864000" />
       <workItem from="1610352102943" duration="1211000" />
-      <workItem from="1610440068678" duration="848000" />
+      <workItem from="1610440068678" duration="1046000" />
+      <workItem from="1610550571079" duration="611000" />
+      <workItem from="1610706218653" duration="651000" />
+      <workItem from="1611302863013" duration="7482000" />
     </task>
     <servers />
   </component>
