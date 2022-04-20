@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d474146-b3be-42b1-bb43-0c5462747db4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/form/input/IdCardSubmitForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/AdvancedSearchContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/IdCardOcrContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/NlpService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/NlpService.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +97,8 @@
       <workItem from="1610550571079" duration="611000" />
       <workItem from="1610706218653" duration="651000" />
       <workItem from="1611302863013" duration="7482000" />
+      <workItem from="1619531531232" duration="33000" />
+      <workItem from="1650449807361" duration="301000" />
     </task>
     <servers />
   </component>
